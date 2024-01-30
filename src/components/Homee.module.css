@@ -1,0 +1,88 @@
+.containerHome {
+  background-color: transparent;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.imgInfo {
+  width: 250px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 2rem;
+}
+.svgContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.svgC {
+  margin-left: 0.7rem;
+  background-color: #3b3b3b;
+  border-radius: 1rem;
+  padding: 0.7rem;
+  box-shadow: 11px 9px 9px 0px rgba(231, 228, 228, 0.75);
+  -webkit-box-shadow: 10px 8px 6px 0px rgba(18, 17, 17, 0.75);
+  -moz-box-shadow: 11px 9px 9px 0px rgba(18, 17, 17, 0.75);
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.svgC:hover {
+  transition: 0.5s;
+  border-color: rgb(237, 231, 231);
+  box-shadow: none;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.buttonContainer {
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+  width: 90%;
+
+  display: flex;
+  justify-content: end;
+}
+.plasBtn {
+  width: 60px;
+  height: 60px;
+  border: none;
+  font-size: 35px;
+  background: #252525;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 11px 9px 9px 0px rgba(231, 228, 228, 0.75);
+  -webkit-box-shadow: 10px 8px 6px 0px rgba(18, 17, 17, 0.75);
+  -moz-box-shadow: 11px 9px 9px 0px rgba(18, 17, 17, 0.75);
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.plasBtn:hover {
+  transition: 0.5s;
+  border-color: rgb(237, 231, 231);
+  box-shadow: none;
+}
+.notesContainer {
+  width: 90%;
+}
+
+.note:hover {
+  cursor: pointer;
+  border-radius: 0.4rem;
+  transform: 1s;
+  box-shadow: -4px 10px 26px 0px rgba(218, 248, 81, 0.75);
+  -webkit-box-shadow: -4px 10px 26px 0px rgba(237, 242, 85, 0.75);
+  -moz-box-shadow: -4px 10px 26px 0px rgba(193, 209, 53, 0.75);
+}

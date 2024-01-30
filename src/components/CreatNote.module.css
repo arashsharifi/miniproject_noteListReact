@@ -1,0 +1,52 @@
+.containerCreatNote {
+  background-color: transparent;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.iconContainer {
+  margin-top: 2rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.coIcon {
+  margin-left: 0.7rem;
+  background-color: #3b3b3b;
+  border-radius: 1rem;
+  padding: 0.7rem;
+  box-shadow: 11px 9px 9px 0px rgba(231, 228, 228, 0.75);
+  -webkit-box-shadow: 10px 8px 6px 0px rgba(18, 17, 17, 0.75);
+  -moz-box-shadow: 11px 9px 9px 0px rgba(18, 17, 17, 0.75);
+  border: 2px solid transparent;
+  cursor: pointer;
+  color: white;
+}
+.coIcon:hover {
+  transition: 0.5s;
+  border-color: rgb(237, 231, 231);
+  box-shadow: none;
+}
+.inputTxt {
+  width: 90%;
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+.inputTxt input {
+  width: 100%;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  color: #9a9a9a;
+}
+.inputTxt input::placeholder {
+  color: #9a9a9a;
+}
+.txt {
+  color: #9a9a9a;
+}

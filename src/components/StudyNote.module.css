@@ -1,0 +1,33 @@
+.containerStudy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.itemHeader {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.btnS {
+  margin-left: 0.7rem;
+  background-color: #3b3b3b;
+  border-radius: 1rem;
+  padding: 0.7rem;
+  box-shadow: 11px 9px 9px 0px rgba(231, 228, 228, 0.75);
+  -webkit-box-shadow: 10px 8px 6px 0px rgba(18, 17, 17, 0.75);
+  -moz-box-shadow: 11px 9px 9px 0px rgba(18, 17, 17, 0.75);
+  border: 2px solid transparent;
+  cursor: pointer;
+  color: white;
+}
+.btnS:hover {
+  transition: 0.5s;
+  border-color: rgb(237, 231, 231);
+  box-shadow: none;
+}
+.study {
+  margin-top: 1.5rem;
+
+  width: 90%;
+}
